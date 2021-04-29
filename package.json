@@ -1,0 +1,15 @@
+{
+  "name": "ezupload",
+  "version": "1.0.0",
+  "description": "upload file made easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ezupload",
+    "easy upload"
+  ],
+  "author": "Rozin Susilo <olisusnizor@gmail.com>",
+  "license": "MIT"
+}
