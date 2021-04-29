@@ -4,12 +4,17 @@
   "description": "upload file made easier",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass src/scss/custom.scss dist/css/ezupload.css",
+    "scss-min": "sass src/scss/custom.scss dist/css/ezupload.min.css"
   },
   "keywords": [
     "ezupload",
     "easy upload"
   ],
   "author": "Rozin Susilo <olisusnizor@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
 }
