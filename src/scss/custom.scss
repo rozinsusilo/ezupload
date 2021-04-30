@@ -1,12 +1,56 @@
-@import "../../node_modules/bootstrap/scss/functions";
+$base-font-size: 14px;
+$primary-color: #9575cd;
+$darker-color: #65499c;
+$lighter-color: #c7a4ff;
+$font-color: #000; 
 
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
+.ez-button {
+    font-size: $base-font-size;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: $darker-color;
+    color: #fff;
+}
 
-@import "../../node_modules/bootstrap/scss/root";
-@import "../../node_modules/bootstrap/scss/reboot";
-@import "../../node_modules/bootstrap/scss/type";
-@import "../../node_modules/bootstrap/scss/buttons";
-@import "../../node_modules/bootstrap/scss/containers";
-@import "../../node_modules/bootstrap/scss/grid";
-@import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+.ez-button:hover {
+    box-shadow: 1px 1px 2px #333;
+}
+
+.ez-header {
+    background-color: $primary-color;
+    padding: 1rem;
+}
+
+.ez-list-item {
+    display: flex;
+    padding: 15px 30px;
+    background-color: #eeeeee;
+}
+
+.ez-list-item:nth-child(even) {
+    background-color: #fff;
+}
+
+.ez-item-header {
+    margin: 0;
+}
+
+.ez-delete-item {
+    width: 48px;
+    height: 48px;
+    padding: 4px;
+    border-radius: 50%;
+    border: none;
+    margin-left: auto;
+    background-image: url('../images/delete.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    content: "\n";
+    transition: background 1s;
+}
+
+.ez-delete-item:hover {
+    background-color: $lighter-color;
+}
