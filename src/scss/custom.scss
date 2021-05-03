@@ -7,14 +7,15 @@ $font-color: #000;
 .ez-button {
     font-size: $base-font-size;
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
     background-color: $darker-color;
     color: #fff;
+    transition: box-shadow 0.5s;
 }
 
 .ez-button:hover {
-    box-shadow: 1px 1px 2px #333;
+    box-shadow: 1px 1px 1px #666;
 }
 
 .ez-header {
@@ -24,7 +25,7 @@ $font-color: #000;
 
 .ez-list-item {
     display: flex;
-    padding: 15px 30px;
+    padding: 1rem;
     background-color: #eeeeee;
 }
 
@@ -37,18 +38,15 @@ $font-color: #000;
 }
 
 .ez-delete-item {
-    width: 48px;
-    height: 48px;
-    padding: 4px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
     border-radius: 50%;
     border: none;
     margin-left: auto;
-    background-image: url('../images/delete.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    cursor: pointer;
     background-color: transparent;
-    content: "\n";
-    transition: background 1s;
+    transition: background 0.5s;
 }
 
 .ez-delete-item:hover {
