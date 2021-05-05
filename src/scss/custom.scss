@@ -12,6 +12,7 @@ $font-color: #000;
     background-color: $darker-color;
     color: #fff;
     transition: box-shadow 0.5s;
+    cursor: pointer;
 }
 
 .ez-button:hover {
@@ -27,6 +28,7 @@ $font-color: #000;
     display: flex;
     padding: 1rem;
     background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ez-list-item:nth-child(even) {
