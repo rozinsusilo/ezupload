@@ -4,6 +4,7 @@ Requirement:
 1. jquery 3.6.0
 
 How to use:
+```
 $("#uploadFile").ezupload({
     //options
     allowedExtension: ['jpg', 'png'], //extension
@@ -11,3 +12,4 @@ $("#uploadFile").ezupload({
     maxFileSize: null,
     name: "files"
 });
+```
